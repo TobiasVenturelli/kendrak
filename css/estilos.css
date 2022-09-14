@@ -1,16 +1,22 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 .titulo{    
     font-family: 'Wire One', sans-serif;
-    font-size: 100px;
-    margin: 0px;
-    
+    font-size: 6rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
 }
 
 .nav1 ul li{ 
-        margin: 5px; 
+    border-radius: 1rem;
+    background-color: rgb(171, 171, 171);
+    margin: 0.5rem;
+    padding: 0.5rem; 
     list-style-type: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: inline;
+    display: inline-block;
 }
 
 .nav1 a{
@@ -98,24 +104,9 @@
     width: 250px;
 }
 
-.lema{
-    color: black;
-    font-family: 'Wire One', sans-serif;
-    font-size: 70px;
-    text-align: center;
-
-}
-
-
-.redes img{
-    width: 40px;
-    height: 40px;
-    
-  
-}
 .nav2 li{
     list-style-type: none;
-   color: white;
+    color: white;
 }
 
 .nav2 a:hover{
@@ -131,40 +122,55 @@
 .contenedor{
     display: grid; 
     grid-template-columns: 1fr;
-    grid-template-rows: 0.09fr 0.1fr 0.8fr 0.1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.8fr 0.5fr;
     grid-template-areas: 
     "header"
-    "main"
+    "lema"
     "section"
     "footer"
 }
 
 .header{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    flex-wrap: nowrap;
     grid-area: header;
+}
+.lema{
+    color: black;
+    font-family: 'Wire One', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    grid-area: main;
 }
 
 .section{
+    grid-area: section;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    padding: 40px;
+    padding: 20px;
 }
 
 .footer{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;      
     background-color: black;
     color: white;
-    margin: 5px;
     grid-area: footer;
     display: flex;
     justify-content: space-evenly;
-    align-content: center;
+    align-items: center;
+}
+.redes ul{
+    display: flex;
+}
+.footer img{
+    width: 40px;
+    height: 40px;
+}
+
+.mediosdepago{
+    padding: 1rem;
 }
 
 @media only screen and (max-width:500px){
@@ -174,7 +180,7 @@
         grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
         grid-template-areas: 
         "header"
-        "main"
+        "lema"
         "section"
         "footer"
     }
@@ -198,7 +204,7 @@
 
     }
 
- }
+}
 /* como comprar */
 
 .tituloComocomprar{

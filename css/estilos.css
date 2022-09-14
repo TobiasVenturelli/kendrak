@@ -31,7 +31,13 @@
     width: 200px;
     height: 200px;
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,1);
+    transition: all 1s;
     
+}
+.zapatos1:hover{
+    height: 250px;
+    width: 250px;
+
 }
 .zapatos2{
     background-repeat: no-repeat;
@@ -40,8 +46,14 @@
     width: 200px;
     height: 200px;
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,1);
+    transition: all 1s;
 
 }
+.zapatos2:hover{
+    height: 250px;
+    width: 250px;
+}
+
 .zapatos3{
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,6 +61,12 @@
     width: 200px;
     height: 200px;
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,1);
+    transition: all 1s;
+}
+.zapatos3:hover{
+    height: 250px;
+    width: 250px;
+
 }
 
 .zapatos4{
@@ -58,7 +76,12 @@
     width: 200px;
     height: 200px;
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,1);
+    transition: all 1s;
 
+}
+.zapatos4:hover{
+    height: 250px;
+    width: 250px;
 }
 
 .zapatos5{
@@ -68,6 +91,11 @@
     width: 200px;
     height: 200px;
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,1);
+    transition: all 1s;
+}
+.zapatos5:hover{
+    height: 250px;
+    width: 250px;
 }
 
 .lema{
@@ -103,7 +131,7 @@
 .contenedor{
     display: grid; 
     grid-template-columns: 1fr;
-    grid-template-rows: 0.09fr 0.1fr 0.4fr 0.1fr;
+    grid-template-rows: 0.09fr 0.1fr 0.8fr 0.1fr;
     grid-template-areas: 
     "header"
     "main"

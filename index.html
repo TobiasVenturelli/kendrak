@@ -10,11 +10,17 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Wire+One&display=swap" rel="stylesheet">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body class="contenedor">  
         <header class="header">    
-         <h1 class="titulo">KENDRAK</h1>    
+            <div data-aos="fade-up"
+            data-aos-anchor-placement="center-center">
+            <h1 class="titulo">KENDRAK</h1> 
+           </div>   
             <nav class="nav1">
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -26,19 +32,34 @@
             </nav>
         </header>  
     <main>
-            <h2 class="lema">"women who stomp"</h2>
+        <div data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+           <h2 class="lema">"women who stomp"</h2>
+        </div>
+    </main>    
     <section class="section">
-             <img class="zapatos3" src="multimedia/zapatos3.jpg" alt="zapatos3">
-        
-             <img class="zapatos2" src="multimedia/zapatos2.jpg" alt="zapatos2">
 
-             <img class="zapatos1" src="multimedia/zapatos.jpg" alt="zapatos1">
+             <div data-aos="zoom-out-down">
+                <img class="zapatos3" src="multimedia/zapatos3.jpg" alt="zapatos3">
+            </div> 
+
+            <div data-aos="zoom-out-up">
+                <img class="zapatos2" src="multimedia/zapatos2.jpg" alt="zapatos2">
+            </div>
+
+            <div data-aos="zoom-in-right">
+                <img class="zapatos1" src="multimedia/zapatos.jpg" alt="zapatos1">
+            </div>
         
-             <img class="zapatos4" src="multimedia/zapatos4.jpg" alt="zapatos4">
+            <div data-aos="zoom-in-left">
+                <img class="zapatos4" src="multimedia/zapatos4.jpg" alt="zapatos4">
+            </div>
         
-             <img class="zapatos5" src="multimedia/zapatos5.jpg" alt="zapatos5">
-    </section>
-</main>     
+            <div data-aos="zoom-in-up">
+                <img class="zapatos5" src="multimedia/zapatos5.jpg" alt="zapatos5">
+            </div>
+    </section> 
     <footer class="footer">
 
      <div class="nav2">
@@ -56,18 +77,21 @@
       <div class="redes">
         <h3>CONTACTANOS</h3>
         <ul>
-            <li><a href="https://api.whatsapp.com/send?phone=541169005142&text=Me%20interesa%20saber%20mas%20sobre...">
-            <img src="multimedia/WhatsApp.svg.webp" alt="logo whatsapp"></a></li>
-            <li><a href="https://www.instagram.com/kendrak.shoes/">
-            <img class="instagram" src="multimedia/instagram.jpg" alt="logo instagram"></a></li>
-            <li><a href="https://cloudhq.net/s/1806a2fd4cd5e2">
-            <img src="multimedia/logo gmail.jpg" alt="logo gmail"></a></li>
+            <li type="none"><a href="https://api.whatsapp.com/send?phone=541169005142&text=Me%20interesa%20saber%20mas%20sobre...">
+            <img src="multimedia/WhatsApp Image 2022-09-12 at 16.36.59.jpeg" alt="logo whatsapp"></a></li>
+            <li type="none"><a href="https://www.instagram.com/kendrak.shoes/">
+            <img class="instagram" src="multimedia/instagram 2.jpeg" alt="logo instagram"></a></li>
+            <li type="none"><a href="https://cloudhq.net/s/1806a2fd4cd5e2">
+            <img src="multimedia/gmail2.jpeg" alt="logo gmail"></a></li>
         </ul>
-      </div>  
+        </div>
             <div class="mediosdepago"> 
-                 <h3>MEDIOS DE PAGO</h3>     
+                <h3>MEDIOS DE PAGO</h3>     
             <p> Transferencia - Mercado pago hasta 3 cuotas sin interes </p>
         </div>
-    </footer> 
+    </footer>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

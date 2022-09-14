@@ -4,10 +4,10 @@
     font-size: 100px;
     margin: 0px;
     
-
 }
+
 .nav1 ul li{ 
-    margin: 5px; 
+        margin: 5px; 
     list-style-type: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: inline;
@@ -148,7 +148,7 @@
 }
 
 .section{
-    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -160,6 +160,7 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;      
     background-color: black;
     color: white;
+    margin: 5px;
     grid-area: footer;
     display: flex;
     justify-content: space-evenly;
@@ -191,8 +192,9 @@
         margin: 4px;
     }
     .footer{
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
 
     }
 

@@ -2,147 +2,156 @@
     margin: 0;
     padding: 0;
 }
-.titulo{    
+
+.titulo {
     font-family: 'Wire One', sans-serif;
     font-size: 6rem;
     margin-left: 2rem;
     margin-top: 2rem;
     font-weight: bold;
 }
-.titulo2{
+
+.titulo2 {
     font-family: 'Wire One', sans-serif;
     font-weight: bold;
     font-size: 4rem;
 }
 
-.nav1 ul li{ 
+.nav1 ul li {
     border-radius: 1rem;
     background-color: rgb(171, 171, 171);
     margin: 0.5rem;
-    padding: 0.5rem; 
+    padding: 0.5rem;
     list-style-type: none;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: inline-block;
 }
 
-.nav1 a{
+.nav1 a {
     transition: color 0.4s ease;
     text-decoration: none;
     color: black;
-    
-} 
-.nav1 a:hover{
+
+}
+
+.nav1 a:hover {
     color: rgb(146, 38, 90);
 }
 
 
-.zapatos1{
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 40px;   
-    width: 200px;
-    height: 200px;
-    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,1);
-    transition: all 1s;
-    
-}
-.zapatos1:hover{
-    height: 250px;
-    width: 250px;
-
-}
-.zapatos2{
+.zapatos1 {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 40px;
     width: 200px;
     height: 200px;
-    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,1);
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 1);
     transition: all 1s;
 
 }
-.zapatos2:hover{
+
+.zapatos1:hover {
     height: 250px;
     width: 250px;
+
 }
 
-.zapatos3{
+.zapatos2 {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 40px;
     width: 200px;
     height: 200px;
-    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,1);
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 1);
     transition: all 1s;
+
 }
-.zapatos3:hover{
+
+.zapatos2:hover {
     height: 250px;
     width: 250px;
-
 }
 
-.zapatos4{
+.zapatos3 {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 40px;
     width: 200px;
     height: 200px;
-    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,1);
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 1);
     transition: all 1s;
-
 }
-.zapatos4:hover{
+
+.zapatos3:hover {
     height: 250px;
     width: 250px;
+
 }
 
-.zapatos5{
+.zapatos4 {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 40px;
     width: 200px;
     height: 200px;
-    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,1);
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 1);
     transition: all 1s;
+
 }
-.zapatos5:hover{
+
+.zapatos4:hover {
     height: 250px;
     width: 250px;
 }
 
-.nav2 li{
+.zapatos5 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 1);
+    transition: all 1s;
+}
+
+.zapatos5:hover {
+    height: 250px;
+    width: 250px;
+}
+
+.nav2 li {
     list-style-type: none;
     color: white;
 }
 
-.nav2 a:hover{
+.nav2 a:hover {
     color: rgb(146, 38, 90);
 }
 
-.nav2 a{
+.nav2 a {
     transition: color 0.3s ease;
     text-decoration: none;
     color: white;
 }
 
-.contenedor{
-    display: grid; 
+.contenedor {
+    display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.5fr 0.8fr 0.5fr;
-    grid-template-areas: 
-    "header"
-    "main"
-    "section"
-    "footer"
+    grid-template-rows: 0.1fr 0.1fr 0.8fr 0.1fr;
+    grid-template-areas:
+        "header"
+        "main"
+        "section"
+        "footer"
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     grid-area: header;
 }
 
-.lema{
+.lema {
     color: black;
     font-family: 'Wire One', sans-serif;
     font-size: 80px;
@@ -151,7 +160,7 @@
     grid-area: main;
 }
 
-.section{
+.section {
     grid-area: section;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     display: flex;
@@ -160,50 +169,54 @@
     padding: 20px;
 }
 
-.footer{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;      
+.footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: black;
     color: white;
     grid-area: footer;
 }
-.redes ul{
+
+.redes ul {
     display: flex;
 }
-.redes-img{
+
+.redes-img {
     width: 40px;
     height: 40px;
 }
 
-.mediosdepago{
+.mediosdepago {
     padding: 1rem;
 }
 
-@media only screen and (max-width:500px){
-    .contenedor{
+@media only screen and (max-width:500px) {
+    .contenedor {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 0.5fr;
         grid-template-areas:
-        "header"
-        "main"
-        "section"
-        "footer"
+            "header"
+            "main"
+            "section"
+            "footer"
     }
-    .header{
+
+    .header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .nav1{
+    .nav1 {
         display: flex;
         flex-direction: column;
     }
 
-    .section{
+    .section {
         flex-direction: column;
     }
-    .footer{
+
+    .footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -211,36 +224,37 @@
     }
 
 }
+
 /* como comprar */
 
-.tituloComocomprar{
+.tituloComocomprar {
     color: black;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 40px;
 }
 
-.claseOl{
-color: black;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-line-height: 2;
-box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,1);
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-margin: 50px;
+.claseOl {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 50px;
 }
 
 
-    
+
 /* catalogo*/
 
-.tituloCatalogo{
+.tituloCatalogo {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
 
 }
 
-.table{
+.table {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
     border-style: ridge;
@@ -248,7 +262,7 @@ margin: 50px;
 
 }
 
-.p1{
+.p1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
     line-height: 5;
@@ -256,36 +270,37 @@ margin: 50px;
 
 /* como comprar */
 
-.tituloComocomprar{
+.tituloComocomprar {
     color: black;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 40px;
     font-size: 1.5rem;
 }
 
-.claseOl{
-color: black;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-line-height: 2;
-box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,1);
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-margin: 50px;
+.claseOl {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 50px;
 }
 
 /* preguntas frecuentes */
 
-.preguntas{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.preguntas {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 2;
+    color: black;
+}
+
+.contacto {
     color: aliceblue;
 }
 
-.contacto{
-    color: aliceblue;
-}
-.formulario{
+.formulario {
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: block;
@@ -294,24 +309,24 @@ margin: 50px;
 
 /* Clases para Bootstrap */
 
-.bg{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.bg {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 10px;
 }
 
-.nav-item a{
+.nav-item a {
     color: black;
 }
 
-.navbar-nav:hover{
+.navbar-nav:hover {
     --bs-nav-link-hover-color: rgb(146, 38, 90);
 }
 
-.list-group-item{
+.list-group-item {
     --bs-list-group-color: #000000;
     --bs-list-group-bg: #fff;
     --bs-list-group-border-color: rgba(0, 0, 0, 0.125);
-    --bs-list-group-border-width: 5px;
+    --bs-list-group-border-width: 10px;
     --bs-list-group-border-radius: 0.1rem;
     --bs-list-group-item-padding-x: 1rem;
     --bs-list-group-item-padding-y: 0.5rem;
@@ -330,4 +345,32 @@ margin: 50px;
     padding-left: 0;
     margin-bottom: 0;
     border-radius: var(--bs-list-group-border-radius);
+}
+
+.btn.btn-primary {
+
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #2e2e2e;
+    --bs-btn-border-color: #040404;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(146, 38, 90);
+    ;
+    --bs-btn-hover-border-color: #040404;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+
+
+}
+.form.check.input{
+    background-color: rgba(255, 255, 255, 0.204);
+
+}
+.form-floating>.form-control, .form-floating>.form-control-plaintext {
+    background-color: #0000003b;
 }

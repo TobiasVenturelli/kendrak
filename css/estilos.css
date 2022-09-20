@@ -141,6 +141,7 @@
     justify-content: space-between;
     grid-area: header;
 }
+
 .lema{
     color: black;
     font-family: 'Wire One', sans-serif;
@@ -259,6 +260,7 @@ margin: 50px;
     color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     margin-left: 40px;
+    font-size: 1.5rem;
 }
 
 .claseOl{
@@ -303,4 +305,29 @@ margin: 50px;
 
 .navbar-nav:hover{
     --bs-nav-link-hover-color: rgb(146, 38, 90);
+}
+
+.list-group-item{
+    --bs-list-group-color: #000000;
+    --bs-list-group-bg: #fff;
+    --bs-list-group-border-color: rgba(0, 0, 0, 0.125);
+    --bs-list-group-border-width: 5px;
+    --bs-list-group-border-radius: 0.1rem;
+    --bs-list-group-item-padding-x: 1rem;
+    --bs-list-group-item-padding-y: 0.5rem;
+    --bs-list-group-action-color: #495057;
+    --bs-list-group-action-hover-color: #495057;
+    --bs-list-group-action-hover-bg: #f8f9fa;
+    --bs-list-group-action-active-color: #212529;
+    --bs-list-group-action-active-bg: #e9ecef;
+    --bs-list-group-disabled-color: #6c757d;
+    --bs-list-group-disabled-bg: #fff;
+    --bs-list-group-active-color: #fff;
+    --bs-list-group-active-bg: #0d6efd;
+    --bs-list-group-active-border-color: #0d6efd;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: var(--bs-list-group-border-radius);
 }

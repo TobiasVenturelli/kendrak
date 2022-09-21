@@ -154,7 +154,7 @@
 .lema {
     color: black;
     font-family: 'Wire One', sans-serif;
-    font-size: 80px;
+    font-size: 70px;
     text-align: center;
     font-weight: bold;
     grid-area: main;
@@ -222,7 +222,10 @@
         align-items: center;
 
     }
+    .lema{
+        margin: 0px;
 
+}
 }
 
 /* como comprar */

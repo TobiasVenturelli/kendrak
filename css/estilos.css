@@ -10,7 +10,6 @@
 
 .titulo {
     color: #272727;
-    ;
     font-family: 'Wire One', sans-serif;
     font-size: 6rem;
     margin-left: 2rem;
@@ -25,7 +24,7 @@
     display: inline-block;
     margin-left: 30rem;
 
-    background-image: linear-gradient(120deg, #cc2b5e, #753a88 100%);
+    background-image: linear-gradient(120deg, rgb(182, 2, 71), rgb(247, 37, 133) 100%);
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
     background-position: 0 80%;
@@ -193,100 +192,57 @@
 
 /* como comprar */
 
-.tituloComocomprar {
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.comprar {
+    color: #272727;
+font-family: 'Prata', serif;
+margin-top: 6rem;
     margin-left: 40px;
+    font-weight: 600;
 }
 
-.claseOl {
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 2;
-    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 1);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 50px;
-}
+.list-group-item{
+    font-family:Arial, Helvetica, sans-serif;
 
+}
 
 
 /* catalogo*/
+.card-text{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
 
-.tituloCatalogo {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-
-}
-
-.table {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: aliceblue;
-    border-style: ridge;
-    border-color: brown;
-
-}
-
-.p1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: aliceblue;
-    line-height: 5;
-}
-
-/* como comprar */
-
-.tituloComocomprar {
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 40px;
-    font-size: 1.5rem;
-}
-
-.claseOl {
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 2;
-    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 1);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 50px;
 }
 
 /* preguntas frecuentes */
 
-.preguntas {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.preguntas h2 {
+    color: #272727;
+    font-family: 'Prata', serif;
     line-height: 2;
-    color: black;
+    font-size: 2rem;    
 }
 
-.contacto {
-    color: aliceblue;
+.preguntas{
+    margin-left: 2rem;
+    font-weight: 600;
 }
-
-.formulario {
-    color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: block;
-
+.preguntas p{
+    color: #272727;
+    font-family:Arial, Helvetica, sans-serif;
 }
+/* contacto */
 
 /* Clases para Bootstrap */
-
 .bg {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
+    font-weight: bolder;
 }
 
 .nav-link.active {
     --bs-navbar-active-color: #272727;
 }
 
-/* .nav-link.active:hover{
-    color: rgb(146, 38, 90);
-} */
 .nav-link {
     --bs-nav-link-color: #272727;
 }
@@ -297,12 +253,12 @@
 }
 
 .dropdown-menu {
-    --bs-border-color-translucent: rgb(146, 38, 90);
+    --bs-border-color-translucent: rgb(182, 2, 71);
 }
 
 
 .navbar-nav:hover {
-    --bs-nav-link-hover-color: rgb(146, 38, 90);
+    --bs-nav-link-hover-color: rgb(182, 2, 71);
 }
 
 .list-group-item {
@@ -336,7 +292,7 @@
     --bs-btn-bg: #2e2e2e;
     --bs-btn-border-color: #040404;
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: rgb(146, 38, 90);
+    --bs-btn-hover-bg: rgb(182, 2, 71);
     ;
     --bs-btn-hover-border-color: #040404;
     --bs-btn-focus-shadow-rgb: 49, 132, 253;
@@ -363,4 +319,15 @@
 
 .bg-darkkk {
     background-color: #272727;
+}
+.h5{
+font-family: 'Prata', serif;
+font-weight: 900;
+}
+.mb-2{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.text-white{
+    font-family:Arial, Helvetica, sans-serif;
 }

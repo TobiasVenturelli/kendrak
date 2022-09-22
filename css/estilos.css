@@ -20,11 +20,24 @@
 
 .lema {
     color: #272727;
-    font-family: 'Wire One', sans-serif;
+    font-family: 'Prata', serif;
     font-size: 4rem;
-    text-align: center;
-    font-weight: bold;
+    display: inline-block;
+    margin-left: 30rem;
+
+    background-image: linear-gradient(120deg, #cc2b5e, #753a88 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 80%;
+    transition: background-size 0.25s ease-in;
 }
+
+.lema:hover {
+    background-size: 100% 88%;
+}
+
+
+
 
 .section {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -173,7 +186,8 @@
     }
 
     .lema {
-        margin: 0px;
+        margin-left: 2.5rem;
+        font-size: 2.3rem;
     }
 }
 

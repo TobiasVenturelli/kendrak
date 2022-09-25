@@ -188,7 +188,7 @@
         margin-left: 2.5rem;
         font-size: 2.3rem;
     }
-}
+} */
 
 /* como comprar */
 
@@ -211,36 +211,6 @@ margin-top: 6rem;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 700;
 
-}
-
-/* preguntas frecuentes */
-
-.preguntas h2 {
-    color: #272727;
-    font-family: 'Prata', serif;
-    line-height: 2;
-    font-size: 2rem;    
-}
-
-.preguntas{
-    margin-left: 2rem;
-    font-weight: 600;
-}
-.preguntas p{
-    color: #272727;
-    font-family:Arial, Helvetica, sans-serif;
-}
-/* contacto */
-
-/* Clases para Bootstrap */
-.bg {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;
-    font-weight: bolder;
-}
-
-.nav-link.active {
-    --bs-navbar-active-color: #272727;
 }
 
 .nav-link {
@@ -330,4 +300,4 @@ font-weight: 900;
 }
 .text-white{
     font-family:Arial, Helvetica, sans-serif;
-}
+} 

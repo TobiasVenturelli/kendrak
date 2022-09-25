@@ -1,3 +1,35 @@
+@media screen and (max-width: 576px) {
+  .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%; }
+  .header img {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .section {
+    flex-direction: column; }
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .lema {
+    margin-left: 2.5rem;
+    font-size: 2.3rem; } }
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding-left: 3rem; }
+  .section {
+    flex-direction: column; }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; } }
+
 .comprar {
   color: #272727;
   font-family: 'Prata', serif;
@@ -33,7 +65,8 @@
 
 .header {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  text-align: center; }
 
 .titulo {
   color: #272727;
@@ -46,7 +79,8 @@
 .titulo2 {
   font-family: 'Wire One', sans-serif;
   font-weight: bold;
-  font-size: 4rem; }
+  font-size: 4rem;
+  text-align: center; }
 
 .lema {
   color: #272727;
@@ -134,18 +168,6 @@
 
 .mediosdepago {
   padding: 1rem; }
-
-@media screen and (max-width: 768px) {
-  .header {
-    flex-direction: column;
-    padding-left: 3rem; }
-  .section {
-    flex-direction: column; }
-  .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; } }
 
 /* Clases para Bootstrap */
 .bg {

@@ -1,4 +1,5 @@
 @import "variables";
+@import "mediaquery";
 @import "comocomprar";
 @import "catalogo";
 @import "pregfrecuentes";
@@ -11,6 +12,7 @@
 .header {
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .titulo {
@@ -26,6 +28,7 @@
     font-family: 'Wire One', sans-serif;
     font-weight: bold;
     font-size: 4rem;
+    text-align: center;
 }
 
 
@@ -145,24 +148,6 @@
 
 .mediosdepago {
     padding: 1rem;
-}
-
-@media screen and (max-width:768px) {
-    .header {
-        flex-direction: column;
-        padding-left: 3rem;
-    }
-
-    .section {
-        flex-direction: column;
-    }
-
-    .footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 }
 
 /* Clases para Bootstrap */

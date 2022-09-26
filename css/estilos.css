@@ -144,6 +144,7 @@
     .header {
         flex-direction: column;
         padding-left: 3rem;
+        align-items: flex-start;
     }
 
     .section {
@@ -156,6 +157,12 @@
         justify-content: center;
         align-items: center;
     }
+    .lema {
+        margin-top: 1rem;
+        margin-left: 10rem;
+        font-size: 3rem;
+    }
+
 }
 
 
@@ -167,14 +174,14 @@
         margin-left: 0%;
     }
 
-    .header img {
-        flex-direction: column;
+    .header {
         justify-content: center;
         align-items: center;
     }
 
     .section {
         flex-direction: column;
+        align-items: center ;
     }
 
     .footer {
@@ -185,8 +192,9 @@
     }
 
     .lema {
-        margin-left: 2.5rem;
-        font-size: 2.3rem;
+        margin-top: 1rem;
+        margin-left: 3rem;
+        font-size: 2rem;
     }
 } 
 

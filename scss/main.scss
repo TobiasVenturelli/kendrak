@@ -1,5 +1,6 @@
+@import "media";
 @import "variables";
-@import "mediaqueries";
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +12,7 @@
 }
 
 .titulo {
-    color: $colorPrincpal;
+    color: $colorPrincipal;
     font-family: 'Wire One', sans-serif;
     font-size: 6rem;
     margin-left: 2rem;

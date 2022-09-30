@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0; }
 
+.colorFondo {
+  background-color: #cad2c5; }
+
 .header {
   display: flex;
   justify-content: space-between; }
@@ -109,7 +112,7 @@
 /* como comprar */
 .comprar {
   color: #272727;
-  font-family: 'Prata', serif;
+  font-family: "prata", serif;
   margin-top: 6rem;
   margin-left: 40px;
   font-weight: 600; }
@@ -120,10 +123,14 @@
 /* catalogo*/
 .card-text {
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700; }
+  font-weight: 400; }
+
+.card-title {
+  font-family: "prata", serif; }
 
 .bg {
-  font-weight: bold; }
+  font-family: "prata", serif;
+  font-weight: bolder; }
 
 .nav-link {
   --bs-nav-link-color:$colorPrincipal; }
@@ -188,13 +195,16 @@
   background-color: #272727; }
 
 .h5 {
-  font-family: 'Prata', serif;
+  font-family: "prata", serif;
   font-weight: 900; }
 
 .mb-2 {
   font-family: Arial, Helvetica, sans-serif; }
 
 .text-white {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.navbar-nav {
   font-family: Arial, Helvetica, sans-serif; }
 
 @media screen and (max-width: 768px) {

@@ -1,9 +1,8 @@
-@import "variables";
 * {
     margin: 0;
     padding: 0;
 }
-
+@import "variables";
 .colorFondo{
     background-color: #cad2c5;
 }
@@ -11,14 +10,12 @@
     display: flex;
     justify-content: space-between;
 }
-
-.titulo {
-    color: $colorPrincipal;
-    font-family: 'Wire One', sans-serif;
-    font-size: 6rem;
-    margin-left: 2rem;
-    margin-top: 2rem;
-    font-weight: bold;
+.titulo{
+    font-family: map-get($estilos, fuente);
+    font-size: map-get($estilos, tamaño);
+    margin-left: map-get($estilos, margenIzq);
+    margin-top: map-get($estilos, margenArr);
+    font-weight: map-get($estilos, negrita);
 }
 
 .lema {
@@ -35,11 +32,7 @@
     &:hover {
         background-size: 100% 88%;
     }
-}
-
-
-
-
+}   
 .section {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     display: flex;
@@ -124,8 +117,7 @@
 }
 
 .redes-img {
-    width: 40px;
-    height: 40px;
+    @include mix(40px, 40px);
 }
 
 .mediosdepago {

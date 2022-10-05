@@ -117,6 +117,13 @@
 .mediosdepago {
   padding: 1rem; }
 
+/* Contacto */
+/* preguntas */
+.preguntas {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
 /* como comprar */
 .comprar {
   color: #272727;

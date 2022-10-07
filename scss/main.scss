@@ -10,17 +10,8 @@
     justify-content: space-between;
     background-color: $colorPrincipal;
 }
-
-.navbar-nav .nav-link.active,
-.navbar-nav .show>.nav-link {
-    color: $colorTitulo  !important;
-}
-.dropdown-menu a{
-    background-color: $colorPrincipal;
-}
-
-.navbar-nav li a {
-
+.navbar-nav a {
+font-family: $tipografiaP;
     color: $colorTitulo;
     border-radius: 4px;
     padding: 0 15px;
@@ -28,6 +19,7 @@
     height: 32px;
     font-size: 15px;
     transition: all 0.2s ease-in-out;
+    font-weight: 700;
 
     &:hover {
         box-shadow: 1px 1px $colorSecundario, 2px 2px $colorSecundario, 3px 3px$colorSecundario;
@@ -55,7 +47,7 @@
     font-family: 'Prata', serif;
     font-size: 3rem;
     display: inline-block;
-    margin-left: 30rem;
+    margin-left: 33rem;
     background-image: linear-gradient(120deg, $colorSecundario, #fc6767 100%);
     background-repeat: no-repeat;
     background-size: 100% 0.1em;
@@ -66,6 +58,10 @@
     &:hover {
         background-size: 100% 88%;
     }
+}
+.container img{
+    width: 100%;
+    height: auto;
 }
 
 .zapatos1 {
@@ -188,12 +184,6 @@
 .card-title {
     font-family: $tipografiaP;
 }
-
-.bg {
-    font-family: $tipografiaP;
-    font-weight: 700;
-}
-
 .dropdown-item {
     --bs-dropdown-link-color: $colorPrincipal;
 

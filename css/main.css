@@ -11,39 +11,55 @@
   font-size: 5rem; }
 
 /* mixins */
-.colorFondo {
-  background-color: #cad2c5; }
-
 .header {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  background-color: #272727; }
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: #cad2c5 !important; }
+
+.dropdown-menu a {
+  background-color: #272727; }
+
+.navbar-nav li a {
+  color: #cad2c5;
+  border-radius: 4px;
+  padding: 0 15px;
+  cursor: pointer;
+  height: 32px;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out; }
+  .navbar-nav li a:hover {
+    box-shadow: 1px 1px #b60247, 2px 2px #b60247, 3px 3px #b60247;
+    transform: translateX(-3px); }
 
 .titulo {
   font-family: "wire one";
   font-size: 6rem;
   margin-left: 2rem;
   margin-top: 2rem;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #cad2c5; }
+
+.animate__bounceIn {
+  animation-duration: 2s; }
 
 .lema, .lemaChico, .lemaGrande {
   color: #272727;
+  margin-top: 3rem;
   font-family: 'Prata', serif;
-  font-size: 4rem;
+  font-size: 3rem;
   display: inline-block;
   margin-left: 30rem;
-  background-image: linear-gradient(120deg, #b60247, #f72585 100%);
+  background-image: linear-gradient(120deg, #b60247, #fc6767 100%);
   background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: 0 80%;
+  background-size: 100% 0.1em;
+  background-position: 0 100%;
   transition: background-size 0.25s ease-in; }
   .lema:hover, .lemaChico:hover, .lemaGrande:hover {
     background-size: 100% 88%; }
-
-.section {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
 
 .zapatos1 {
   background-repeat: no-repeat;
@@ -106,6 +122,7 @@
     width: 250px; }
 
 .titulo2 {
+  color: #cad2c5;
   font-family: 'Wire One', sans-serif;
   font-weight: bold;
   font-size: 4rem; }
@@ -132,9 +149,6 @@
   margin-left: 40px;
   font-weight: 600; }
 
-.list-group-item {
-  font-family: Arial, Helvetica, sans-serif; }
-
 /* catalogo*/
 .card-text {
   font-family: Arial, Helvetica, sans-serif;
@@ -145,30 +159,29 @@
 
 .bg {
   font-family: "prata", serif;
-  font-weight: bolder; }
-
-.nav-link {
-  --bs-nav-link-color:$colorPrincipal; }
+  font-weight: 700; }
 
 .dropdown-item {
   --bs-dropdown-link-color: $colorPrincipal; }
 
 .dropdown-menu {
-  --bs-border-color-translucent: #b60247; }
+  --bs-border-color-translucent: ; }
 
-.navbar-nav:hover {
-  --bs-nav-link-hover-color: #b60247; }
+.navbar-nav {
+  font-family: Arial, Helvetica, sans-serif; }
+  .navbar-nav:hover {
+    --bs-nav-link-hover-color: #b60247; }
 
 .list-group-item {
-  --bs-list-group-color: #000000;
-  --bs-list-group-bg: #fff;
-  --bs-list-group-border-color: rgba(0, 0, 0, 0.125);
+  --bs-list-group-color: $colorPrincipal;
+  --bs-list-group-bg: $colorTitulo;
+  --bs-list-group-border-color: $colorPrincipal;
   --bs-list-group-border-width: 10px;
   --bs-list-group-border-radius: 0.1rem;
   --bs-list-group-item-padding-x: 1rem;
   --bs-list-group-item-padding-y: 0.5rem;
-  --bs-list-group-action-color: #495057;
-  --bs-list-group-action-hover-color: #495057;
+  --bs-list-group-action-color: $colorPrincipal;
+  --bs-list-group-action-hover-color: $colorPrincipal;
   --bs-list-group-action-hover-bg: #f8f9fa;
   --bs-list-group-action-active-color: #212529;
   --bs-list-group-action-active-bg: #e9ecef;
@@ -184,20 +197,20 @@
   border-radius: var(--bs-list-group-border-radius); }
 
 .btn.btn-primary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #2e2e2e;
+  --bs-btn-color: $colorTitulo;
+  --bs-btn-bg: $colorPrincipal;
   --bs-btn-border-color: #040404;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: rgb(182, 2, 71);
+  --bs-btn-hover-bg: $colorSecundario;
   --bs-btn-hover-border-color: #040404;
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #0a58ca;
-  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-bg: $colorSecundario;
+  --bs-btn-active-border-color: $ColorSecundario;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #0d6efd;
-  --bs-btn-disabled-border-color: #0d6efd; }
+  --bs-btn-disabled-bg: $colorSecundario;
+  --bs-btn-disabled-border-color: $colorSecundario; }
 
 .form.check.input {
   background-color: rgba(255, 255, 255, 0.204); }
@@ -217,9 +230,6 @@
   font-family: Arial, Helvetica, sans-serif; }
 
 .text-white {
-  font-family: Arial, Helvetica, sans-serif; }
-
-.navbar-nav {
   font-family: Arial, Helvetica, sans-serif; }
 
 @media screen and (max-width: 768px) {

@@ -52,7 +52,16 @@
   background-repeat: no-repeat;
   background-size: 100% 0.1em;
   background-position: 0 100%;
-  transition: background-size 0.25s ease-in; }
+  transition: background-size 0.25s ease-in;
+  animation: move 1s ease-in-out; }
+
+@keyframes move {
+  0% {
+    transform: translate(-100%, 0); }
+  50% {
+    transform: translate(20%, 0); }
+  70% {
+    transform: translate(-10%, 0); } }
   .lema:hover, .lemaChico:hover, .lemaGrande:hover {
     background-size: 100% 88%; }
 
@@ -61,65 +70,14 @@
   height: 300px;
   border-radius: 10%; }
 
-.zapatos1 {
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 40px;
-  width: 200px;
-  height: 200px;
-  box-shadow: 0 0.1rem 0.3rem black;
-  transition: all 1s; }
-  .zapatos1:hover {
-    height: 250px;
-    width: 250px; }
+.text-center img {
+  width: 50px;
+  height: 50px; }
 
-.zapatos2 {
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 40px;
-  width: 200px;
-  height: 200px;
-  box-shadow: 0 0.1rem 0.4rem black;
-  transition: all 1s; }
-  .zapatos2:hover {
-    height: 250px;
-    width: 250px; }
-
-.zapatos3 {
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 40px;
-  width: 200px;
-  height: 200px;
-  box-shadow: 0 0.1rem 0.4rem black;
-  transition: all 1s; }
-  .zapatos3:hover {
-    height: 250px;
-    width: 250px; }
-
-.zapatos4 {
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 40px;
-  width: 200px;
-  height: 200px;
-  box-shadow: 0 0.1rem 0.4rem black;
-  transition: all 1s; }
-  .zapatos4:hover {
-    height: 250px;
-    width: 250px; }
-
-.zapatos5 {
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 40px;
-  width: 200px;
-  height: 200px;
-  box-shadow: 0 0.1rem 0.4rem black;
-  transition: all 1s; }
-  .zapatos5:hover {
-    height: 250px;
-    width: 250px; }
+.col.text-center {
+  transition: all 0.2s ease-in-out; }
+  .col.text-centerhover {
+    background-color: #040404; }
 
 .titulo2 {
   color: #cad2c5;
@@ -193,23 +151,24 @@
   border-radius: var(--bs-list-group-border-radius); }
 
 .btn.btn-primary {
-  --bs-btn-color: $colorTitulo;
+  --bs-btn-color: #040404;
   --bs-btn-bg: $colorPrincipal;
   --bs-btn-border-color: #040404;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: $colorSecundario;
+  --bs-btn-hover-bg: #b60247;
   --bs-btn-hover-border-color: #040404;
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: $colorSecundario;
-  --bs-btn-active-border-color: $ColorSecundario;
+  --bs-btn-active-color: #040404;
+  --bs-btn-active-bg: #b60247;
+  --bs-btn-active-border-color: #b60247;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: $colorSecundario;
-  --bs-btn-disabled-border-color: $colorSecundario; }
+  --bs-btn-disabled-color: #b60247;
+  --bs-btn-disabled-bg: #b60247;
+  --bs-btn-disabled-border-color: #b60247; }
 
-.form.check.input {
-  background-color: rgba(255, 255, 255, 0.204); }
+.form-check-input:checked {
+  background-color: #b60247 !important;
+  border-color: #b60247 !important; }
 
 .form-floating > .form-control,
 .form-floating > .form-control-plaintext {

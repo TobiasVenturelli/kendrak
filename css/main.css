@@ -56,9 +56,10 @@
   .lema:hover, .lemaChico:hover, .lemaGrande:hover {
     background-size: 100% 88%; }
 
-.container img {
-  width: 100%;
-  height: auto; }
+.section img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10%; }
 
 .zapatos1 {
   background-repeat: no-repeat;

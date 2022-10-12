@@ -221,14 +221,12 @@
 
 @media screen and (max-width: 576px) {
   .titulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: auto; }
   .header {
     flex-direction: column;
     align-items: center;
-    margin: auto; }
+    margin: auto;
+    padding: auto; }
   .section {
     display: flex;
     flex-direction: column;
@@ -239,8 +237,11 @@
     align-items: center; }
   .lema, .lemaChico, .lemaGrande {
     margin-top: 1rem;
-    margin-left: 3rem;
-    font-size: 2rem; } }
+    margin-left: 3.5rem;
+    font-size: 2rem; }
+  .section video {
+    width: 12rem;
+    height: 12rem; } }
 
 @media screen and (max-width: 380px) {
   .section video {

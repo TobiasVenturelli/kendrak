@@ -35,11 +35,20 @@
     margin-top: map-get($estilos, margenArr);
     font-weight: map-get($estilos, negrita);
     color: $colorTitulo;
+    text-decoration: none;
     
+.a{
+    transition: color; 
+}   
+&:hover{
+    color: $colorSecundario;
+}
+
 }
 
 .animate__bounceIn {
     animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 .lema {
@@ -79,14 +88,13 @@
 
     padding-bottom: 2rem;
     padding-top: 1rem;
-    width: 20rem;
-    height: 32rem;
+    width: 25rem;
+    height: 25rem;
 
 }
-.text-center img{
+.article img{
     width: 50px;
     height: 50px;
-    animation: all 
 }
 
 .titulo2 {
@@ -94,6 +102,15 @@
     font-family: 'Wire One', sans-serif;
     font-weight: bold;
     font-size: 4rem;
+    text-decoration: none;
+    
+    .a{
+        transition: color; 
+    }   
+    &:hover{
+        color: $colorSecundario;
+    }
+    
 }
 
 .redes-img {

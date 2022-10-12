@@ -36,10 +36,16 @@
   margin-left: 2rem;
   margin-top: 1rem;
   font-weight: bold;
-  color: #cad2c5; }
+  color: #cad2c5;
+  text-decoration: none; }
+  .titulo .a {
+    transition: color; }
+  .titulo:hover {
+    color: #b60247; }
 
 .animate__bounceIn {
-  animation-duration: 2s; }
+  animation-duration: 2s;
+  animation-iteration-count: infinite; }
 
 .lema, .lemaChico, .lemaGrande {
   color: #272727;
@@ -68,19 +74,23 @@
 .section video {
   padding-bottom: 2rem;
   padding-top: 1rem;
-  width: 20rem;
-  height: 32rem; }
+  width: 25rem;
+  height: 25rem; }
 
-.text-center img {
+.article img {
   width: 50px;
-  height: 50px;
-  animation: all; }
+  height: 50px; }
 
 .titulo2 {
   color: #cad2c5;
   font-family: 'Wire One', sans-serif;
   font-weight: bold;
-  font-size: 4rem; }
+  font-size: 4rem;
+  text-decoration: none; }
+  .titulo2 .a {
+    transition: color; }
+  .titulo2:hover {
+    color: #b60247; }
 
 .redes-img {
   width: 40px;
@@ -187,7 +197,6 @@
 @media screen and (max-width: 768px) {
   .header {
     flex-direction: column;
-    padding-left: 3rem;
     align-items: center; }
   .section {
     display: flex;
@@ -206,8 +215,7 @@
   .titulo {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-left: 0%; }
+    align-items: center; }
   .header {
     justify-content: center;
     align-items: center; }

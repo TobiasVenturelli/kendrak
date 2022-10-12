@@ -1,3 +1,8 @@
+@media screen and (max-width:1280px){
+        .lema{
+            margin-left: 20rem;
+        }
+}
 @media screen and (max-width:768px) {
     .header {
         flex-direction: column;
@@ -10,7 +15,11 @@
         align-items: center;
         justify-content: center;
     }
-
+    .section video{
+        width: 15rem;
+        height: 15rem;
+        margin-bottom: 5rem;
+    }
     .footer {
         display: flex;
         flex-direction: column;
@@ -20,8 +29,8 @@
         margin-left: 10rem;
         font-size: 3rem;
     }
-
 }
+
 
 
 @media screen and (max-width:576px) {
@@ -29,29 +38,33 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: auto;
     }
-
     .header {
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
+        margin: auto;
     }
-
     .section {
         display: flex;
         flex-direction: column;
         align-items: center ;
     }
-
     .footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
     }
-
     .lema {
         margin-top: 1rem;
         margin-left: 3rem;
         font-size: 2rem;
     }
 } 
+@media screen and (max-width:380px){
+    .section video{
+        width: 10rem;
+        height: 10rem;
+        
+    }
+}

@@ -83,7 +83,6 @@
         background-size: 100% 88%;
     }
 }
-
 .section video{
     padding-bottom: 2rem;
     padding-top: 1rem;
@@ -99,7 +98,6 @@
     width: 50px;
     height: 50px;
 }
-
 .titulo2 {
     color: $colorTitulo;
     font-family: 'Wire One', sans-serif;
@@ -115,15 +113,12 @@
     }
     
 }
-
 .redes-img {
     @include mix(40px, 40px);
 }
-
 .mediosdepago {
     padding: 1rem;
 }
-
 /* Contacto */
 /* preguntas */
 .preguntas {
@@ -131,10 +126,7 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-
-
 /* como comprar */
-
 .comprar {
     color: $colorPrincipal;
     font-family: $tipografiaP;
@@ -142,8 +134,6 @@
     margin-left: 40px;
     font-weight: 600;
 }
-
-
 /* catalogo*/
 .card-text {
     font-family: $tipografiaS;

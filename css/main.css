@@ -100,9 +100,8 @@
   font-family: 'Wire One', sans-serif;
   font-weight: bold;
   font-size: 4rem;
-  text-decoration: none; }
-  .titulo2 .a {
-    transition: color; }
+  text-decoration: none;
+  transition: color 1s; }
   .titulo2:hover {
     color: #b60247; }
 

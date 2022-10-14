@@ -119,10 +119,7 @@
     font-weight: bold;
     font-size: 4rem;
     text-decoration: none;
-
-    .a {
-        transition: color;
-    }
+    transition: color 1s;
 
     &:hover {
         color: $colorSecundario;

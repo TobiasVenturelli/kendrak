@@ -37,9 +37,8 @@
   margin-top: 1rem;
   font-weight: bold;
   color: #cad2c5;
-  text-decoration: none; }
-  .titulo .a {
-    transition: color; }
+  text-decoration: none;
+  transition: color 1s; }
   .titulo:hover {
     color: #b60247; }
 
@@ -213,7 +212,7 @@
   .lema, .lemaChico, .lemaGrande {
     margin-left: 20rem; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .header {
     flex-direction: column;
     align-items: center; }
@@ -232,15 +231,18 @@
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .footerTitulo {
-    padding-bottom: 2rem;
-    text-align: center; }
   .lema, .lemaChico, .lemaGrande {
     margin-top: 1rem;
     margin-left: 10rem;
     font-size: 3rem; }
+  .footerTitulo {
+    padding-bottom: 2rem;
+    text-align: center; }
   .footerContact {
-    text-align: center; } }
+    text-align: center; }
+  .h52 {
+    text-align: center;
+    padding-right: 2rem; } }
 
 @media screen and (max-width: 576px) {
   .titulo {
@@ -263,7 +265,16 @@
     font-size: 2rem; }
   .section video {
     width: 8rem;
-    height: 8rem; } }
+    height: 8rem; }
+  .footerLinks {
+    text-align: center;
+    margin-bottom: 1rem; }
+  .footerContact {
+    text-align: center;
+    margin-bottom: 1rem; }
+  .footerMP {
+    text-align: center;
+    margin-bottom: 1rem; } }
 
 @media screen and (max-width: 426px) {
   .article {

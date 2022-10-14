@@ -36,15 +36,14 @@
     font-weight: map-get($estilos, negrita);
     color: $colorTitulo;
     text-decoration: none;
-    
-.a{
-    transition: color; 
-}   
-&:hover{
-    color: $colorSecundario;
-}
+    transition: color 1s;
 
-}
+        &:hover {
+            color: $colorSecundario;
+
+        }
+    }
+
 
 .animate__bounceIn {
     animation-duration: 2s;
@@ -83,7 +82,8 @@
         background-size: 100% 88%;
     }
 }
-.section video{
+
+.section video {
     padding-bottom: 2rem;
     padding-top: 1rem;
     width: 23rem;
@@ -94,42 +94,50 @@
     padding: 1px;
     background-color: $colorPrincipal;
 }
-.audio{
-display: flex;
-justify-content: center;
-margin-bottom: 2rem;
-margin-top: 2rem;
+
+.audio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 
 }
-.article{
+
+.article {
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
-.article img{
+
+.article img {
     width: 50px;
     height: 50px;
 }
+
 .titulo2 {
     color: $colorTitulo;
     font-family: 'Wire One', sans-serif;
     font-weight: bold;
     font-size: 4rem;
     text-decoration: none;
-    
-    .a{
-        transition: color; 
-    }   
-    &:hover{
+
+    .a {
+        transition: color;
+    }
+
+    &:hover {
         color: $colorSecundario;
     }
-    
+
 }
+
 .redes-img {
     @include mix(40px, 40px);
 }
+
 .mediosdepago {
     padding: 1rem;
 }
+
 /* Contacto */
 /* preguntas */
 .preguntas {
@@ -137,6 +145,7 @@ margin-top: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
 /* como comprar */
 .comprar {
     color: $colorPrincipal;
@@ -145,6 +154,7 @@ margin-top: 2rem;
     margin-left: 40px;
     font-weight: 600;
 }
+
 /* catalogo*/
 .card-text {
     font-family: $tipografiaS;
@@ -224,7 +234,7 @@ margin-top: 2rem;
     background-color: #b60247 !important;
     border-color: #b60247 !important;
 }
-    
+
 
 
 .form-floating>.form-control,

@@ -117,7 +117,7 @@
   display: flex; }
 
 .btn.btn-primary {
-  --bs-btn-color: #040404;
+  --bs-btn-color: #fff;
   --bs-btn-bg: $colorPrincipal;
   --bs-btn-border-color: #040404;
   --bs-btn-hover-color: #fff;
@@ -130,7 +130,8 @@
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #b60247;
   --bs-btn-disabled-bg: #b60247;
-  --bs-btn-disabled-border-color: #b60247; }
+  --bs-btn-disabled-border-color: #b60247;
+  background-color: #272727; }
 
 .form-check-input:checked {
   background-color: #b60247 !important;

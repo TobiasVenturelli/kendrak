@@ -142,7 +142,7 @@
 
 .btn.btn-primary {
 
-    --bs-btn-color: #040404;
+    --bs-btn-color: #fff;
     --bs-btn-bg: $colorPrincipal;
     --bs-btn-border-color: #040404;
     --bs-btn-hover-color: #fff;
@@ -156,6 +156,7 @@
     --bs-btn-disabled-color: #b60247;
     --bs-btn-disabled-bg: #b60247;
     --bs-btn-disabled-border-color: #b60247;
+        background-color: $colorPrincipal;
 }
 
 .form-check-input:checked {

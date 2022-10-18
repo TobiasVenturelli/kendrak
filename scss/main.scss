@@ -165,10 +165,13 @@
 }
 
 /* preguntas */
-.preguntas {
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.preguntas h4{
+font-family: $tipografiaP;
+margin-top: 2rem;
+
+p{
+    font-family:$tipografiaS;
+}
 }
 
 /* como comprar */

@@ -1,1 +1,2 @@
 let nombre
+let numero
